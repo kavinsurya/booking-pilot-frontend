@@ -1,0 +1,10 @@
+.user-container {
+  margin: 20px auto;
+  width: 90%;
+  cursor: default;
+}
+@media (max-width: 500px) {
+  .user-container {
+    width: 100%;
+  }
+}

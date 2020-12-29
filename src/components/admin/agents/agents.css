@@ -1,0 +1,9 @@
+.table{
+    margin: 100px auto;
+    width: 90%;
+}
+
+.verification-btn ,
+.verification-td{
+    margin: 5px;
+}

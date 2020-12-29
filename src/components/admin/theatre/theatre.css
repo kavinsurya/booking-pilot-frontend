@@ -1,0 +1,10 @@
+.theatre-container{
+    margin: 20px auto;
+    width: 90%;
+    cursor: default;
+}
+
+.verification-btn ,
+.verification-td{
+    margin: 5px;
+}

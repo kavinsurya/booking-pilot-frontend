@@ -6,11 +6,11 @@ import Button from "react-bootstrap/Button";
 const AdminList = () => {
   return (
     <div className="adminpage-content">
-      <div class="container">
+    <div class="container">
         <p>Hover over the card to see the drop shadow added</p>
 
         <div class="card-deck">
-          <div class="card adminListing-card">
+          <div class="card adminListing-card mb-4">
             <div class="card-body">
               <h5 class="card-title">Users</h5>
               <p class="card-text">
@@ -21,7 +21,7 @@ const AdminList = () => {
               </Link>
             </div>
           </div>
-          <div class="card adminListing-card">
+          <div class="card adminListing-card mb-4">
             <div class="card-body">
               <h5 class="card-title">Theatre Agent</h5>
               <p class="card-text">
@@ -32,7 +32,7 @@ const AdminList = () => {
               </Link>
             </div>
           </div>
-          <div class="card adminListing-card">
+          <div class="card adminListing-card mb-4">
             <div class="card-body">
               <h5 class="card-title">Theatres</h5>
               <p class="card-text">
@@ -42,8 +42,8 @@ const AdminList = () => {
                 <Button variant="outline-primary">View</Button>{" "}
               </Link>
             </div>
-          </div>
-          <div class="card adminListing-card">
+          </div>     
+          <div class="card adminListing-card mb-4">
             <div class="card-body">
               <h5 class="card-title">Movies</h5>
               <p class="card-text">
@@ -56,7 +56,8 @@ const AdminList = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
+     
     </div>
   );
 };

@@ -18,11 +18,11 @@ const Header = () => {
       <header className="header">
         <img
           className="img"
-          src="https://image.freepik.com/free-vector/cute-astronaut-with-popcorn-cartoon-vector-icon-illustration-science-food-icon_138676-1979.jpg"
+          srcSet="https://image.freepik.com/free-vector/cute-astronaut-with-popcorn-cartoon-vector-icon-illustration-science-food-icon_138676-1979.jpg"
           height="60px"
           width="75px"
           alt=""
-          srcSet=""
+        
         />
         <div className="menuDiv">
           {role === "ADMIN" ? (
@@ -69,9 +69,7 @@ const Header = () => {
                 <span className="navicon"></span>
               </label>
               <ul className="menu">
-                <li>
-                  <a href="/TheatreList">THEATRES</a>
-                </li>
+                
                 <li>
                   <a href="/movies">MOVIES</a>
                 </li>

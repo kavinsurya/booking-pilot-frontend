@@ -4,14 +4,13 @@ import Carousel from "react-bootstrap/Carousel";
 
 export function HomePageImage  ()  {
   const [data, setData] = useState([]);
-  console.log(data);
   useEffect(() => {
-    const userList = async () => {
+    const movieImage = async () => {
       let response = await fetch("http://localhost:5000/movie/movies");
       let user = await response.json();
       setData(user);
     };
-    userList();
+    movieImage();
   }, []);
   return (
     <div>

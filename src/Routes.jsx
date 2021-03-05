@@ -11,6 +11,10 @@ import { AdminLogin } from "./generalComponents/login/AdminLogin";
 //User and Agent Register Components
 import { UserRegister } from "./generalComponents/register/UserRegister";
 import { AgentRegister } from "./generalComponents/register/AgentRegister";
+
+import { Movies } from "./generalComponents/movies/Movies";
+
+
 export function Routes() {
   return (
     <div>
@@ -22,6 +26,8 @@ export function Routes() {
           <Route path="/login/@admin" exact component={AdminLogin}></Route>
           <Route path="/register" exact component={UserRegister}></Route>
           <Route path="/register/agent" exact component={AgentRegister}></Route>
+          <Route path="/movies" exact component={Movies}></Route>
+          
         </Switch>
       </Router>
     </div>
